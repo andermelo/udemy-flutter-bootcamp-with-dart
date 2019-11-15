@@ -43,5 +43,4 @@
 
 ## Referência Bibliográfica
 
-* item
-* item
+* [Flutter-Course-Resources](https://github.com/londonappbrewery/Flutter-Course-Resources)
