@@ -6,7 +6,7 @@
 
 ### Sumário
 
-1. [I Am Rich - How to Create Flutter Apps From Scratch](#)
+1. [I Am Rich - How to Create Flutter Apps From Scratch](/i_am_rich)
 
 1. Running Your App on a Physical Device
 
