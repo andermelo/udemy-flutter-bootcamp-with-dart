@@ -34,8 +34,6 @@
 
 1. [Flutter State Management](#) :star2:
 
-1. [Next Steps](#)
-
 1. [Recursos utilizados](#recursos-utilizados)
 1. [Referência bibliográfica](#referência-bibliográfica)
 
