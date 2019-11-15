@@ -8,21 +8,21 @@
 
 1. [I Am Rich - How to Create Flutter Apps From Scratch](#)
 
-1. [Running Your App on a Physical Device](#)
+1. Running Your App on a Physical Device
 
-1. [I Am Poor - App Challenge](#)
+1. I Am Poor - App Challenge
 
-1. [MiCard - How to Build Beautiful UIs with Flutter Widgets](#)
+1. MiCard - How to Build Beautiful UIs with Flutter Widgets
 
-1. [Dicee - Building Apps with State](#)
+1. Dicee - Building Apps with State
 
-1. [Boss Level Challenge 1 - Magic 8 Ball](#)
+1. Boss Level Challenge 1 - Magic 8 Ball
 
-1. [Xylophone - Using Flutter and Dart Packages to Speed Up Development](#)
+1. Xylophone - Using Flutter and Dart Packages to Speed Up Development
 
 1. [Quizzler -Modularising & Organising Flutter Code](#)
 
-1. [Boss Level Challenge 2 - Destini](#)
+1. Boss Level Challenge 2 - Destini
 
 1. [BMI Calculator - Building Flutter UI for Intermediates](#)
 
@@ -32,7 +32,7 @@
 
 1. [Flash Chat - Flutter x Firebase Cloud Firestore](#)
 
-1. [Flutter State Management](#)
+1. [Flutter State Management](#) :star2:
 
 1. [Next Steps](#)
 
