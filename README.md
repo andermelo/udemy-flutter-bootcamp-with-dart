@@ -30,9 +30,9 @@
 
 1. [Boss Level Challenge 3 - Bitcoin Ticker](#)
 
-1. [Flash Chat - Flutter x Firebase Cloud Firestore](#) :zap:
+1. [Flash Chat - Flutter x Firebase Cloud Firestore](/flash_chat) :zap:
 
-1. [Flutter State Management](/flash_chat) :star2:
+1. [Flutter State Management](#) :star2:
 
 1. [Recursos utilizados](#recursos-utilizados)
 1. [Referência bibliográfica](#referência-bibliográfica)
