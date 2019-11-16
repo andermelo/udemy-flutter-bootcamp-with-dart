@@ -38,9 +38,9 @@
 1. [Referência bibliográfica](#referência-bibliográfica)
 
 ## Recursos utilizados
-* item
-* item
+
+* [Flutter-Course-Resources](https://github.com/londonappbrewery/Flutter-Course-Resources)
 
 ## Referência Bibliográfica
 
-* [Flutter-Course-Resources](https://github.com/londonappbrewery/Flutter-Course-Resources)
+* item
