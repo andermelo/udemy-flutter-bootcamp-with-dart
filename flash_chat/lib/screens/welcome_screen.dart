@@ -7,7 +7,7 @@ import 'package:flash_chat/widgets/MyButton.dart';
 
 class WelcomeScreen extends StatefulWidget {
 
-  static const String id = 'welcome_string';
+  static const String id = 'welcome_screen';
 
   @override
   _WelcomeScreenState createState() => _WelcomeScreenState();
