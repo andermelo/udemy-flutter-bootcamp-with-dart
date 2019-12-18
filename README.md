@@ -40,6 +40,7 @@
 ## Recursos utilizados
 
 * [Flutter-Course-Resources](https://github.com/londonappbrewery/Flutter-Course-Resources)
+* [Conteúdo completo da aulda sobre state management](https://github.com/londonappbrewery/Flutter-Course-Resources/)
 
 ## Referência Bibliográfica
 
