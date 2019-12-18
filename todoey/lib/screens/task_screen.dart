@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:todoey/widgets/lista_itens.dart';
+import 'package:todoey/screens/add_task_screen.dart';
 
 class TaskScreen extends StatefulWidget {
   @override
@@ -6,10 +8,27 @@ class TaskScreen extends StatefulWidget {
 }
 
 class _TaskScreenState extends State<TaskScreen> {
+
+  // Widget buildButtomSheet(BuildContext context){
+  //   return Container(
+  //     child: Center(child: Text('olá bottom sheet'),),
+  //   );
+  // }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.lightBlueAccent,
+      floatingActionButton: FloatingActionButton(
+        onPressed: (){
+          showModalBottomSheet(
+            context: context,
+            builder: (context) => AddTaskScreen()
+          );
+        },
+        backgroundColor: Colors.lightBlueAccent,
+        child: Icon(Icons.add),
+      ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
@@ -48,11 +67,15 @@ class _TaskScreenState extends State<TaskScreen> {
           ),
           Expanded(
             child: Container(
+              padding: EdgeInsets.symmetric(horizontal: 20.0),
               decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.only(
-                      topLeft: Radius.circular(20.0),
-                      topRight: Radius.circular(20.0))),
+                color: Colors.white,
+                borderRadius: BorderRadius.only(
+                  topLeft: Radius.circular(20.0),
+                  topRight: Radius.circular(20.0)
+                )
+              ),
+              child: ListaItens(),
             ),
           )
         ],
@@ -60,3 +83,7 @@ class _TaskScreenState extends State<TaskScreen> {
     );
   }
 }
+
+
+
+
