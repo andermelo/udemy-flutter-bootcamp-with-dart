@@ -1,27 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:todoey/models/task.dart';
+import 'package:todoey/models/task_data.dart';
 import 'package:todoey/widgets/lista_itens.dart';
 import 'package:todoey/screens/add_task_screen.dart';
+import 'package:provider/provider.dart';
 
-class TaskScreen extends StatefulWidget {
-  @override
-  _TaskScreenState createState() => _TaskScreenState();
-}
-
-class _TaskScreenState extends State<TaskScreen> {
-
-  // Widget buildButtomSheet(BuildContext context){
-  //   return Container(
-  //     child: Center(child: Text('olá bottom sheet'),),
-  //   );
-  // }
-
-  List<Task> tasks = [
-    Task(name: 'comprar leite'),
-    Task(name: 'comprar pão'),
-    Task(name: 'comprar ovo'),
-  ];
-
+class TaskScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -30,13 +13,7 @@ class _TaskScreenState extends State<TaskScreen> {
         onPressed: (){
           showModalBottomSheet(
             context: context,
-            builder: (context) => AddTaskScreen((newTaskTitle){
-              // print(newTaskTitle);
-              setState(() {
-                tasks.add(Task(name:newTaskTitle));
-                Navigator.pop(context);
-              });
-            })
+            builder: (context) => AddTaskScreen()
           );
         },
         backgroundColor: Colors.lightBlueAccent,
@@ -72,7 +49,7 @@ class _TaskScreenState extends State<TaskScreen> {
                   ),
                 ),
                 Text(
-                  '${tasks.length} tasks',
+                  '${Provider.of<TaskData>(context).taskCount} tasks',
                   style: TextStyle(color: Colors.white, fontSize: 18),
                 ),
               ],
@@ -88,7 +65,7 @@ class _TaskScreenState extends State<TaskScreen> {
                   topRight: Radius.circular(20.0)
                 )
               ),
-              child: ListaItens(tasks),
+              child: ListaItens(),
             ),
           )
         ],
